@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-dark: #0B0710;
+    --bg-surface: #160827;
+    --purple-primary: #7028E8;
+    --purple-neon: #A855F7;
+    --purple-glow: rgba(168, 85, 247, 0.35);
+  }
+
+  body {
+    background-color: #0B0710;
+    color: #F8FAFC;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+
+  h1, h2, h3, .font-heading {
+    font-family: 'Outfit', sans-serif;
+  }
+
+  .font-cinzel {
+    font-family: 'Cinzel', serif;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0B0710;
+}
+::-webkit-scrollbar-thumb {
+  background: #2A1448;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #7028E8;
+}
+
+/* Glow utility classes */
+.glow-purple {
+  box-shadow: 0 0 25px rgba(112, 40, 232, 0.35);
+}
+
+.glow-purple-neon {
+  box-shadow: 0 0 35px rgba(168, 85, 247, 0.45);
+}
+
+.text-glow {
+  text-shadow: 0 0 16px rgba(168, 85, 247, 0.6);
+}

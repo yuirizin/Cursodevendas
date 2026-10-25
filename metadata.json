@@ -1,0 +1,6 @@
+{
+  "name": "ZEUS SITES IA",
+  "description": "Plataforma de curso: Crie Sites com Inteligência Artificial e Revenda para Empresas, com Zeus Cyber Mentor, aulas protegidas e painel administrativo.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
